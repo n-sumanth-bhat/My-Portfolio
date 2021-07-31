@@ -156,12 +156,15 @@ nav .menu-btn,
 }
 nav .menu-btn{
   color: #4070f4;
+  padding-top: 8px;
 }
 nav.sticky .menu-btn{
   color: #FFF;
+  padding-top: 2px;
 }
 .navbar .menu .menu-btn{
   color: #fff;
+  /* padding-top: 8px; */
 }
 
 /* home section styling */
@@ -312,59 +315,7 @@ section .button button:hover{
   color: #4070f4;
 }
 
- /* My Skills CSS */
- /* .skills{
-   background: #F0F8FF;
- }
- .skills .content{
-   padding: 40px 0;
- }
- .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .skills-details .text{
-   width: 50%;
- }
- .skills-details p{
-   color: #0E2431;
-   text-align: justify;
- }
-.skills .skills-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-.skills-details .experience .num{
-  color: #0E2431;
-  font-size: 80px;
-}
-.skills-details .experience .exp{
-  color: #0E2431;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-.skills-details .boxes{
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.skills-details .box{
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
-}
-.skills-details .boxes .topic{
-  font-size: 20px;
-  color: #4070f4;
-}
-.skills-details .boxes .per{
-  font-size: 60px;
-  color: #4070f4;
-} */
+
 .inner{
   padding-top: 20px;
   background-color:aliceblue;
@@ -373,27 +324,7 @@ section .button button:hover{
 
 
 }
-/* .header{
-  text-align: center;
-    padding: 1rem;
-  color: #0E2431;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 8px;
-  font-family: 'Poppins', sans-serif; */
-/* 
-}
-.header:after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100px;
-  background-color: #2ecc71;
-} */
+
 .container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -407,8 +338,6 @@ section .button button:hover{
 
 .skill-box{
   padding: 1rem;
-  /* color: #ddd; */
-  /* cursor: pointer; */
   background-color: white;  
   border-radius: 20px;
 }
@@ -611,10 +540,10 @@ footer .text span a:hover{
     left: 0;
   }
   nav .navbar .theme-toggle{
-    margin-right: 30px;
+    margin-right: 100px;
   }
   nav.stick .theme-toggle{
-    margin-right: 30px;
+    margin-right: 100px;
   }
   nav .navbar .menu a{
     font-size: 23px;
@@ -650,7 +579,7 @@ footer .text span a:hover{
 
 @media (max-width: 500px){
   .home .text-two{
-    font-size: 55px;
+    font-size: 45px;
   }
   .home .text-three{
     font-size: 33px;
@@ -661,6 +590,7 @@ footer .text span a:hover{
   }
   nav .navbar .theme-toggle{
     margin-right:125px;
+    margin-left: 15px;
   }
 }
 

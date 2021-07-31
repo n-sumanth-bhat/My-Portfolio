@@ -144,12 +144,15 @@ nav .menu-btn,
 }
 nav .menu-btn{
   color: #4070f4;
+  padding-top: 8px;
 }
 nav.sticky .menu-btn{
   color: #000;
+  padding-top: 2px;
 }
 .navbar .menu .menu-btn{
   color: #000;
+  /* padding-top: 8px; */
 }
 /* nav .theme-toggle{
   font-size: 25px;
@@ -529,10 +532,10 @@ footer .text span a:hover{
     z-index: 4;
   }
   nav .navbar .theme-toggle{
-    margin-right: 30px;
+    margin-right: 100px;
   }
   nav.stick .theme-toggle{
-    margin-right: 30px;
+    margin-right: 100px;
   }
   .navbar.active .menu{
     left: 0;
@@ -571,7 +574,7 @@ footer .text span a:hover{
 
 @media (max-width: 500px){
   .home .text-two{
-    font-size: 55px;
+    font-size: 45px;
   }
   .home .text-three{
     font-size: 33px;
@@ -582,6 +585,7 @@ footer .text span a:hover{
   }
   nav .navbar .theme-toggle{
     margin-right:125px;
+    margin-left: 15px;
   }
 }
 
